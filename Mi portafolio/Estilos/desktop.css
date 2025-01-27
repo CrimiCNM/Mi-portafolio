@@ -1,0 +1,63 @@
+/* Header */
+.encabezado {
+    justify-content: center;
+    padding: .8rem 3rem;
+    z-index: 2;
+}
+
+nav.nav_menu {
+    display: flex;
+}
+
+nav.nav_menu a{
+    font-size: 1.6rem;
+    padding: .5rem;
+    color: var(--white);
+    font-family: "Copper Hewitt";
+    text-decoration: none;
+    letter-spacing: .1rem;
+    right: 0;
+    margin-right: 2.5rem;
+}
+
+nav.nav_menu a:hover,
+nav.nav_manu a.activo {
+    color: var(--beaver);
+    padding: .5rem;
+    border-bottom: 1px solid var(--beaver);
+    transition: all .5s;
+}
+
+nav.nav_menu.no-activo a {
+    display: flex;
+}
+
+nav.nav_menu.no-activo .banderas{
+    display:flex;
+    width: 7rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav.nav_menu.no-activo .banderas_articulo{
+    filter: contrast(65%);
+    cursor: pointer;
+}
+
+nav.nav_menu.no-activo .banderas_articulo img {
+    width: 3rem;
+    display:block;
+}
+
+div.btn {
+    display:flex;    
+}
+
+/*Home*/
+.home {
+    display: flex;
+    flex-direction: row-reverse;
+    padding-bottom: 4rem;
+    height: 100vh;
+}
+
